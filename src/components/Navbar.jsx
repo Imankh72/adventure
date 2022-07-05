@@ -1,12 +1,11 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { NavbarContainer } from "./NavbarContainer";
 import { FaTypo3, FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
   return (
-    <NavbarContainer>
+    <nav>
       <div>
         <Link to="/" className="logo">
           TRVL <FaTypo3 />
@@ -53,7 +52,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-    </NavbarContainer>
+    </nav>
   );
 };
 
