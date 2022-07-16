@@ -44,7 +44,12 @@ const Navbar = () => {
         >
           Products
         </NavLink>
-        <button className="btn whitespace-nowrap">Sign Up</button>
+        <button
+          className="btn whitespace-nowrap"
+          onClick={() => setOpenMenu(false)}
+        >
+          Sign Up
+        </button>
       </ul>
     </nav>
   );
