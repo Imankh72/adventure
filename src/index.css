@@ -25,7 +25,7 @@ li {
 
 @layer components {
   .navbar {
-    @apply bg-neutral-900  w-[100%] h-[60px] fixed top-0 left-0 text-white text-2xl px-2 md:flex md:justify-between md:max-w-7xl md:pr-0 xl:left-[50%] xl:translate-x-[-50%];
+    @apply bg-neutral-900  w-[100%] h-[80px] fixed top-0 left-0 text-white text-2xl px-2 md:flex md:justify-between md:max-w-7xl md:pr-0 xl:left-[50%] xl:translate-x-[-50%];
   }
 
   .nav-link-container {
@@ -37,10 +37,23 @@ li {
   }
 
   .nav-link {
-    @apply w-full text-center py-8 px-4 transition-all font-semibold hover:bg-gray-50 hover:text-neutral-900 md:h-[60px] md:py-3 md:px-14;
+    @apply w-full text-center py-8 px-4 transition-all font-semibold rounded-sm hover:bg-gray-50 hover:text-neutral-900 md:h-[60px] md:py-3 md:px-14;
   }
 
   .btn {
     @apply mx-auto text-center rounded-sm my-4 px-6 py-3 border w-[80%] border-gray-200 transition-all font-semibold uppercase hover:text-neutral-900 hover:bg-gray-50 md:py-[6px] md:my-0 md:px-10 md:w-[100%] md:mx-10;
+  }
+
+  .hero-container {
+    background: url("../public/images/img-home.jpg") center center/cover
+      no-repeat;
+    height: 100vh;
+    width: 100%;
+    object-fit: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    color: #fff;
   }
 }
