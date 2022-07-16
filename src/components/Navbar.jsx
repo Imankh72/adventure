@@ -24,8 +24,8 @@ const Navbar = () => {
       </div>
       <ul
         className={`nav-link-container ${
-          openMenu ? "left-0" : "left-[-100%]"
-        } `}
+          openMenu ? "left-0 opacity-100" : "left-[-100%] opacity-0"
+        } md:opacity-100`}
       >
         <NavLink to="/" className="nav-link" onClick={() => setOpenMenu(false)}>
           Home
@@ -44,6 +44,7 @@ const Navbar = () => {
         >
           Products
         </NavLink>
+        <button className="btn whitespace-nowrap">Sign Up</button>
       </ul>
     </nav>
   );

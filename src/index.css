@@ -39,4 +39,8 @@ li {
   .nav-link {
     @apply w-full text-center py-8 px-4 transition-all font-semibold hover:bg-gray-50 hover:text-neutral-900 md:h-[60px] md:py-3 md:px-14;
   }
+
+  .btn {
+    @apply mx-auto text-center rounded-sm my-4 px-6 py-3 border w-[80%] border-gray-200 transition-all font-semibold uppercase hover:text-neutral-900 hover:bg-gray-50 md:py-[6px] md:my-0 md:px-10 md:w-[100%] md:mx-10;
+  }
 }
