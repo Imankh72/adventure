@@ -2,7 +2,7 @@ import { FaPlayCircle } from "react-icons/fa";
 
 const HeroSection = () => {
   return (
-    <div className="hero-container text-gray-100 flex flex-col items-center p-1 font-semibold text-center">
+    <div className="hero-background text-gray-100 flex flex-col items-center p-1 font-semibold text-center">
       <h1 className="text-[34px] uppercase mt-10 mb-4 sm:text-5xl md:text-7xl">
         Adventure awaits
       </h1>
