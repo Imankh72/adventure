@@ -1,14 +1,19 @@
 import { Link } from "react-router-dom";
 
-const CardItem = () => {
+const CardItem = ({ adventure }) => {
+  const { text, image, label } = adventure;
+
   return (
     <li>
-      <Link>
+      <Link to="/services">
         <figure>
-          <img src="" alt="" />
+          <img src={image} alt={text} />
         </figure>
         <div>
-          <h5></h5>
+          <h5>{text}</h5>
+        </div>
+        <div>
+          <span>{label}</span>
         </div>
       </Link>
     </li>
