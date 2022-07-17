@@ -5,7 +5,7 @@ const CardItem = ({ adventure }) => {
 
   return (
     <li className="rounded-lg w-[280px] h-[320px] overflow-hidden shadow-lg md:w-[440px] md:h-[400px]">
-      <Link to="/services">
+      <Link to="/">
         <div className="w-full h-[180px] relative overflow-hidden md:h-[280px]">
           <img
             className="w-full h-full transition-all duration-1000 hover:scale-125"

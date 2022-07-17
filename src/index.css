@@ -44,24 +44,29 @@ li {
     @apply mx-auto text-center rounded-sm my-4 px-6 py-3 border w-[80%] border-gray-200 transition-all font-semibold whitespace-nowrap uppercase hover:text-neutral-900 hover:bg-gray-50 md:mx-10 md:py-[6px] md:my-0 md:px-10 md:w-[100%];
   }
 
-  .hero-background {
-    background: url("../public/images/img-home.jpg") center center/cover
-      no-repeat;
-    height: 100vh;
-    width: 100%;
-    object-fit: contain;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-  }
-
   .hero-btn {
     @apply py-2 px-4 uppercase whitespace-nowrap rounded-sm w-[200px] transition-all text-lg text-center md:py-3 md:px-12 md:w-[250px];
   }
 
-  .products-background {
-    background: url("../public/images/img-3.jpg") center center/cover no-repeat;
+  .hero-background,
+  .products-background,
+  .services-background {
     height: 100vh;
     width: 100%;
     object-fit: contain;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  }
+
+  .hero-background {
+    background: url("../public/images/img-home.jpg") center center/cover
+      no-repeat;
+  }
+
+  .products-background {
+    background: url("../public/images/img-3.jpg") center center/cover no-repeat;
+  }
+
+  .services-background {
+    background: url("../public/images/img-6.jpg") center center/cover no-repeat;
   }
 }
