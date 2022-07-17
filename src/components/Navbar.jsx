@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="flex items-center justify-between text-3xl h-full md:gap-3">
-        <Link to="/" className=" flex items-center gap-1">
+        <Link to="/" className="flex items-center gap-1">
           TRVL <FaTypo3 />
         </Link>
         {openMenu ? (
