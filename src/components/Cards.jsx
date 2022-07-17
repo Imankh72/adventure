@@ -1,9 +1,13 @@
+import CardItem from "./CardItem";
+
 const Cards = () => {
   return (
     <div>
       <h1>Check out these EPIC destinations!</h1>
       <div>
-        <ul></ul>
+        <ul>
+          <CardItem />
+        </ul>
       </div>
     </div>
   );
