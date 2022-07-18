@@ -11,7 +11,7 @@ const FooterLinks = () => {
   return (
     <section className="w-[80%] flex justify-center flex-wrap gap-20">
       {footerLinks.map(({ id, title, links }) => (
-        <div key={id} className="text-left flex-1 flex flex-col">
+        <div key={id} className="text-left w-[150px] flex flex-col">
           <h6 className="font-bold text-2xl mb-6">{title}</h6>
           <ul>
             {links.map((link, index) => (

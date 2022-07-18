@@ -69,4 +69,8 @@ li {
   .services-background {
     background: url("../public/images/img-6.jpg") center center/cover no-repeat;
   }
+
+  .social-links {
+    @apply cursor-pointer transition-all opacity-80 hover:opacity-100;
+  }
 }
