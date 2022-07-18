@@ -1,10 +1,11 @@
 import FooterForm from "./FooterForm";
+import FooterLinks from "./FooterLinks";
 
 const Footer = () => {
   return (
-    <footer className="bg-neutral-800 text-gray-50 flex flex-col justify-center items-center py-16 px-6 text-center">
+    <footer className="bg-neutral-800 text-gray-50 flex flex-col justify-center items-center py-16 px-6 text-center gap-16">
       <FooterForm />
-      <section></section>
+      <FooterLinks />
       <section></section>
     </footer>
   );
