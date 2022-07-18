@@ -8,7 +8,7 @@ const CardItem = ({ adventure }) => {
       <Link to="/">
         <div className="w-full h-[180px] relative overflow-hidden md:h-[280px]">
           <img
-            className="w-full h-full transition-all duration-1000 hover:scale-125"
+            className="w-full h-full transition-all duration-[1.2s] hover:scale-125"
             src={image}
             alt={text}
           />

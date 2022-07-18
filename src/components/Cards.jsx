@@ -10,7 +10,7 @@ const Cards = () => {
   }, []);
 
   return (
-    <div className="p-4">
+    <div className="px-4 py-8">
       <h1 className="text-center text-3xl font-bold my-12 md:text-5xl">
         Check out these EPIC destinations!
       </h1>
